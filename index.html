@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THENWS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/index.css">
+</head>
+<header>
+    <div class="logo">THENWS</div>
+</header>
+<body>
+    <div class="statistic">
+        <div class="time">Сегодня, <span id="moscow-time"></span>. Проблемы с платформой отсутствуют</div>
+    </div>
+    <div class="news">
+        <div class="news-block">
+            <template id="newsTemplate">
+                <div class="news-item">
+                    <div class="news-meta">
+                    <span class="news-title">{title}</span><br>
+                        <span class="news-theme">{theme}</span><br>
+                        <span class="news-author">Автор: {author}</span>
+                    </div>
+                    <div class="news-text">
+                        <p>{text}</p>
+                    </div>
+                </div>
+            </template>
+            <div id="newsContainer">
+                <div class="loading">Загрузка новостей...</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/scripts/time.js"></script>
+<script src="assets/scripts/news.js"></script>
+<script src="assets/scripts/links.js"></script>
+<script src="assets/scripts/text.js"></script>
+</html>
