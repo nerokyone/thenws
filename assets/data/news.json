@@ -1,0 +1,16 @@
+{
+    "news": [
+        {
+            "title": "Тестовая новость",
+            "author": "nerokyone",
+            "theme": "Информация",
+            "text": "Текст с [ссылкой на Google]{https://google.com} и [ссылкой на Яндекс]{https://yandex.ru}"
+        },
+        {
+            "title": "Тестовая новость #2", 
+            "author": "nerokyone2",
+            "theme": "Информация2",
+            "text": "Просто текст и [кликабельная ссылка]{https://example.com} здесь /n оаоаоаоаоа"
+        }
+    ]
+}
